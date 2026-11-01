@@ -1,0 +1,271 @@
+#phone{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    #icon{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+}
+#desktop{
+    display: none;
+}
+main{
+    background: linear-gradient(to bottom, #e5e7eb, #fff, #fff, #fff, #fff);
+    text-align: center;
+    h1{
+        padding: 30px 0 0 0;
+        color: orange;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    p{
+        padding: 10px 45px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid lab(91.5774% -.154167 -2.19255);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+        max-width: 400px;
+        border-radius: 24px;
+        overflow: hidden;
+        margin: auto;
+        margin-top: 20px;
+        .img{
+            img{
+                display: block;
+                width: 400px;
+                height: 450px;
+            }
+        }
+        .info{
+            a:hover{color: orange;}
+            p{
+                text-align: left;
+                padding: 10px 10px 0px 10px;
+                margin: 0px;
+                width: 400px;
+                font-weight: bold;
+            }
+            button{
+                font: inherit;
+                width: 90%;
+                border: 0px;
+                padding: 10px;
+                border-radius: 999px;
+                background-color: orange;
+                margin: 15px 0;
+                i{
+                    margin: 5px;
+                }
+            }
+        }
+    }
+    hr{
+        margin: 70px 0 50px 0;
+    }
+}
+footer{
+    text-align: center;
+    h2, p, input{
+        margin-top: 15px;
+    }
+    h2{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    p{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    #email{
+        width: 370px;
+        border-radius: 20px;
+        border-color: black;
+        background-color: white;
+    }
+    input{
+        border-radius: 10px;
+        background-color: orange;
+        border: 1px solid rgba(0, 0, 0, 0.12);
+    }
+    hr{
+        width: 93%;
+    }
+    #footer1{
+        #footer11{
+            text-align: left;
+            padding: 15px;
+            color: rgb(114, 121, 134);
+            h2{
+                color: black;
+                font-size: 1.7em;
+                text-transform: uppercase;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            ul{
+                li{
+                    i{
+                        margin-right: 10px;
+                    }
+                }
+            }
+            #icons{
+                font-size: 1.7em;
+                a:hover{color: orange;}
+            }
+        }
+        #footer12{
+            margin-top: 10px;
+            text-align: left;
+            padding: 15px;
+            color: rgb(114, 121, 134);
+            h4{
+                color: black;
+                text-transform: uppercase;
+            }
+            ul{
+                li{
+                    margin-top: 10px;
+                    a:hover{color: black;}
+                }
+            }
+        }
+        #footer13{
+            margin-top: 10px;
+            text-align: left;
+            padding: 15px;
+            color: rgb(114, 121, 134);
+            h4{
+                color: black;
+                text-transform: uppercase;
+            }
+            ul{
+                li{
+                    margin-top: 10px;
+                    a:hover{color: black;}
+                }
+            }
+        }
+        #footer14{
+            margin-top: 10px;
+            text-align: left;
+            padding: 15px;
+            color: rgb(114, 121, 134);
+            h4{
+                color: black;
+                text-transform: uppercase;
+            }
+            ul{
+                li{
+                    margin-top: 10px;
+                    a:hover{color: black;}
+                }
+            }
+        }
+        #footer15{
+            margin-top: 10px;
+            text-align: left;
+            padding: 15px;
+            color: rgb(114, 121, 134);
+            h4{
+                color: black;
+                text-transform: uppercase;
+            }
+            ul{
+                li{
+                    margin-top: 10px;
+                    a:hover{color: black;}
+                }
+            }
+        }
+    }
+    #footer2{
+        margin-top: 70px;
+        color: rgb(114, 121, 134);
+
+        p{
+            line-height: 5px;
+            a:hover{color: orange;}
+        }
+        ul{
+            li{
+                display: inline-block;
+                margin: 10px 15px 0 0;
+                a:hover{color: black;}
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #phone{
+        display: none;
+    }
+    #desktop{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 30px;
+        align-items: center;
+        #loqo{
+            font-size: 1.7em;
+            text-transform: uppercase;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        menu{
+            display: flex;
+            gap: 10px;
+            li{
+                font-size: 1.2em;
+                a{
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                }
+            }
+        }
+        #account{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            font-size: 1.2em;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            #signup{
+                background-color: orange;
+                padding: 8px;
+                border-radius: 20px;
+            }
+        }
+    }
+    main{
+        #container{
+            width: 1300px;
+            margin: auto;
+            #shopping{
+                display: flex;
+                flex-wrap: wrap;
+                .card{
+                    width: 33%;
+                }
+            }
+        }
+    }
+    footer{
+        #footer1{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 0 35px;
+        }
+        #footer2{
+            text-align: left;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 0 50px 50px 50px;
+
+        }
+    }
+}
